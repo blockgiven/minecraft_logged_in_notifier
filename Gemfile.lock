@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    idobata_hook (0.0.1)
+      faraday (~> 0.9.0)
+      mime-types (~> 1.25.1)
+    mime-types (1.25.1)
+    multipart-post (2.0.0)
+    redis (3.1.0)
+    takumi-packet (0.0.1)
+    takumi-server_list_ping (0.0.2)
+      takumi-packet
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  idobata_hook
+  redis
+  takumi-server_list_ping
