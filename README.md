@@ -13,4 +13,4 @@ minecraft logged in notifier for idobata.io
 
 Add job every 10 minuites:
 
-    bundle exec notifier.rb
+    bundle exec ruby notifier.rb
