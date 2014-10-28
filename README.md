@@ -11,4 +11,4 @@ minecraft logged in notifier for idobata.io
     $ heroku config:set MINECRAFT_SERVER_ADDRESS=<YOUR_MINECRAFT_SERVER_ADDRESS>
     $ heroku addons:add redistogo
     $ git push heroku master
-    $ heroku ps:scale web=0 notify=1
+    $ heroku ps:scale notify=1
