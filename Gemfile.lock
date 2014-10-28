@@ -9,8 +9,8 @@ GEM
     mime-types (1.25.1)
     multipart-post (2.0.0)
     redis (3.1.0)
-    takumi-packet (0.0.1)
-    takumi-server_list_ping (0.0.3)
+    takumi-packet (0.0.2)
+    takumi-server_list_ping (0.0.5)
       takumi-packet
 
 PLATFORMS
