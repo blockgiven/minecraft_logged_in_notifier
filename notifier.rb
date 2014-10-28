@@ -1,3 +1,4 @@
+require 'pp'
 require 'redis'
 require 'idobata_hook'
 require 'takumi/server_list_ping'
@@ -9,6 +10,8 @@ loop do
   prev_player_count = redis.get(count_key) || 0
 
   status_response = Takumi::ServerListPing.ping(ENV['MINECRAFT_SERVER_ADDRESS'])
+
+  pp status_response.info
 
   current_player_count = status_response.info['players']['online']
 
