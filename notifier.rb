@@ -1,4 +1,5 @@
 require 'redis'
+require 'idobata_hook'
 require 'takumi/server_list_ping'
 
 count_key = 'online_player_count'
